@@ -1,75 +1,72 @@
-<p align="center">
-  <img alt="Spell IT" title="Spell IT" src="./assets/logo.png" height="130">
+ranslateQuest - Educational Language Translation Game
+
+TranslateQuest is an interactive educational application designed to help users improve their language skills by translating words from Arabic to English. The game offers a structured approach to learning through engaging gameplay, progressively challenging levels, and instant feedback.
+Features:
+
+    Multi-Level Challenges:
+        The game is divided into several levels, each with a set of predefined questions. Users advance through levels by correctly translating words from Arabic to English.
+        Levels are designed to progressively increase in difficulty, ensuring a gradual learning curve.
+
+    Text-to-Speech Functionality:
+        Each English word is accompanied by a text-to-speech feature that reads the word aloud. This helps users with pronunciation and reinforces learning.
+
+    Interactive Gameplay:
+        Users are presented with Arabic words and must enter their English translations.
+        The game provides immediate feedback on the correctness of the answers, allowing users to learn from their mistakes in real-time.
+
+    Scoring and Leaderboards:
+        Players earn scores based on the accuracy of their translations. Correct answers contribute to the overall score, while incorrect answers are recorded for review.
+        A leaderboard tracks the top-performing users, encouraging friendly competition and motivation.
+
+    Level Unlocking:
+        Levels are unlocked based on the player’s performance. Users must achieve a minimum score (e.g., 90%) to unlock subsequent levels.
+        Completing levels successfully can unlock new challenges and features within the app.
+
+    Personalized Experience:
+        Users can track their progress through scores and completed levels. The app saves game data and user preferences for a personalized learning experience.
+
+    Visual and Audio Enhancements:
+        The app features a user-friendly interface with visually appealing design elements, including vibrant colors and intuitive navigation.
+        Audio feedback for correct and incorrect answers enhances the interactive experience.
+
+Technical Implementation:
+
+    Platform: Flutter for cross-platform development (iOS and Android).
+    State Management: Utilizes Flutter’s StatefulWidget and setState for managing UI updates and game state.
+    Data Persistence: Uses SharedPreferences for storing user progress, level status, and game scores.
+    Text-to-Speech: Integrated using Flutter’s flutter_tts package to convert text to spoken word.
+    Routing: Implemented with named routes and dynamic route arguments to handle navigation between different screens (e.g., Home, Game, Results).
+    Local Data Storage: JSON is used for storing and retrieving questions and game data.
+    UI Components: Utilizes Flutter’s ListView, ElevatedButton, TextField, and AlertDialog for interactive user interfaces.
+
+Setup and Installation:
+
+    Clone the Repository:
+
+    bash
+
+git clone https://github.com/your-repo/TransQuiz.git
 
 
-<h1 align="center"> Spell IT </h1> <br>
-<p align="center">
-   A free, spelling game for improving your english vocabulary.
-</p>
-<p align="center">
-    <img alt="" title=Spell IT" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
-    <img alt="" title="Spell IT" src="https://img.shields.io/badge/Build%20with-Flutter-blue">
-    <img alt="" title="Spell IT" src="https://img.shields.io/github/stars/AkashRajpurohit/Spell-IT">
-    <img alt="" title="Spell IT" src="https://img.shields.io/github/forks/AkashRajpurohit/Spell-IT">
-    <img alt="" title="Spell IT" src="https://img.shields.io/github/issues/AkashRajpurohit/Spell-IT">
-    <img alt="" title="Spell IT" src="https://img.shields.io/github/license/AkashRajpurohit/Spell-IT">
-    <img alt="" title="Spell IT" src="https://visitor-badge.laobi.icu/badge?page_id=akashrajpurohit-spellit.visitor-badge">
-    <img alt="" title="Spell IT" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FAkashRajpurohit%2FSpell-IT">
 
-</p>
-<p align="center">
-    <a href="https://github.com/AkashRajpurohit/Spell-IT/releases">
-    <img alt="" title="Spell IT" src="https://img.shields.io/badge/-Download%20for%20Android-blue?style=for-the-badge&logo=android" height="35"><a/><br><br><br>
-</p>
-<p align="center">
-    <img src="mockups/main.png" height="40%" width="40%">
-    <img src="mockups/game_screen.png" height="40%" width="40%">
-    <img src="mockups/correct_answer.png" height="40%" width="40%">
-    <img src="mockups/wrong_answer.png" height="40%" width="40%">
-    <img src="mockups/level_warning.png" height="40%" width="40%">
-</p>
+Install Dependencies:
 
-## 🗺 Roadmap
-* [x] Generate app with flutter
-* [x] Generate basic screens (Home. GameScreen)
-* [x] Flutter Text To Speech Functionality
-* [x] Update logo and fonts of the app
-* [x] Pageview to generate the gamescreen where multiple questions are showed
-* [x] Generate word hints by randomizing `_` in letters of word
-* [x] Show alerts when user has given right or wrong answers
-* [x] Shared Preferences
-  * [x] Store score of user based on the level
-  * [x] Retrieve the score and show a `success` image for solved questions
-* [x] Connect to nodejs API deployed on firebase
-* [x] Show loader while the data is loading from the API
-* [x] Lock the next level until the user has completed 60% of questions from previous level
-* [x] Caching questions in shared preferences to reduce network calls and improve performance and user experience
+bash
 
-## 🙌 Contribution 
+cd TranslateQuest
+flutter pub get
 
-* Fork this Project
+Run the App:
 
-* Git clone
+bash
 
-* ``` cd Spell-IT && flutter run ``` 
+    flutter run
 
-* make changes to code
+Contributing:
 
-* Create a Pull request
+    Contributions are welcome! Please fork the repository and submit pull requests for any enhancements, bug fixes, or new features.
+    For detailed contribution guidelines, refer to the CONTRIBUTING.md file.
 
-## 💵 Support
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+License:
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/RajpurohitAkash)
-
-
-## 🐛 Bugs or Requests
-
-If you encounter any problems feel free to open an [issue](https://github.com/AkashRajpurohit/Spell-IT/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/AkashRajpurohit/Spell-IT/issues/new?template=feature_request.md) on GitHub and I'll look into it. Pull request are also welcome.
-
-## 🗒️ License
-
-**Spell-IT** is licensed under `MIT license`.
-
-## Visit My Portfolio
-[Akash Rajpurohit](https://akashrajpurohit.cf)
+    This project is licensed under the MIT License. See the LICENSE file for details.
