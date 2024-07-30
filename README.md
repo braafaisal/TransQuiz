@@ -1,5 +1,28 @@
 ranslateQuest - Educational Language Translation Game
 
+
+
+![1](https://github.com/user-attachments/assets/eec5f80a-479f-4ca6-9bc6-ee416984fb87)
+
+
+
+![2](https://github.com/user-attachments/assets/214cae0c-0b83-4f33-95c4-fa2ef21399d7)
+
+
+
+
+![3](https://github.com/user-attachments/assets/2cc837c4-89ed-4bc5-9672-f0e152bb0ef8)
+
+
+
+![4](https://github.com/user-attachments/assets/230bef5e-b4d9-4ce1-8abc-89f2fdb9acfd)
+
+
+
+
+![5](https://github.com/user-attachments/assets/7c3d1c46-df7e-4ccf-b6ab-bec8f6752cda)
+
+
 TranslateQuest is an interactive educational application designed to help users improve their language skills by translating words from Arabic to English. The game offers a structured approach to learning through engaging gameplay, progressively challenging levels, and instant feedback.
 Features:
 
